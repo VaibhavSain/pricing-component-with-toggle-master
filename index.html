@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  
+  <title>Pricing Component</title>
+
+</head>
+<body style="background-color:hsl(240, 17%, 86%)" class="h-screen w-screen">
+  <main> 
+    <h1 class="text-center pt-16 text-3xl font-sans font-semibold">Our Pricing</h1>
+    <!-- this is a toggle switch -->
+    <label id="toggleSwitch" class="inline-flex items-center   absolute left-96 ml-44  mt-10 cursor-pointer">
+      <span class="ms-3 text-lg font-medium text-gray-900 pr-3">Annually</span>
+
+      <input type="checkbox" value="" class=" sr-only peer">
+      <div class="relative  w-14 h-7 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[4px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-6 after:w-6 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+      <span class="ms-3 text-lg font-medium text-gray-900 ">Monthly</span>
+    </label>
+    <!-- div1 -->
+    <div style="background-color: #8e92ea;" class=" relative top-44 z-10 object-center min-h-96 w-80 m-auto rounded-lg">
+      <p class="text-center font-sans font-semibold text-lg text-white pt-10">Professional</p>
+      <h1 id="rate1" class="text-center font-sans text-6xl font-semibold text-white pt-10">$24.99</h1>
+      <hr class="h-px mt-4 mb-2 mx-5 bg-gray-100 border-0 dark:bg-white">
+      <p class="text-center font-sans  font-semibold text-white">1 TB Storage</p>
+      <hr class="h-px mt-2 mx-5 mb-2 bg-gray-100 border-0 dark:bg-white">
+      <p class="text-center font-sans   font-semibold text-white">5 Users Allowed</p>
+      <hr class="h-px mt-2 mx-5 mb-2 bg-gray-100 border-0 dark:bg-white">
+      <p class="text-center font-sans   font-semibold text-white">Send up to 10 GB</p>
+      <hr class="h-px mt-2 mx-5 mb-2 bg-gray-100 border-0 dark:bg-white">
+      <button  class="h-10 w-72 hover:cursor-pointer text-indigo-500 hover:border rounded-lg text-center bg-white  ml-4 mt-2 hover:bg-transparent hover:text-white  ">Learn More</button>
+    </div>
+    <!-- div2 -->
+    <div style="background-color: rgba(255,255,255,255);height: 22em;"; class=" absolute top-72 left-52   object-center   w-80  rounded-lg">
+        <p class="text-center font-sans font-semibold text-lg text-gray-500 pt-6 ">Basic</p>
+        <h1 id="rate2" class="text-center font-sans text-6xl font-semibold text-gray-500 pt-4">$19.99</h1>
+        <hr class="h-px mt-4 mb-2 mx-5 bg-gray-100 border-0 dark:bg-gray-300">
+        <p class="text-center font-sans  font-semibold text-gray-500">500 GB Storage</p>
+        <hr class="h-px mt-3 mx-5 mb-2 bg-gray-100 border-0 dark:bg-gray-300">
+        <p class="text-center font-sans   font-semibold text-gray-500">2 Users Allowed</p>
+        <hr class="h-px mt-2 mx-5 mb-2 bg-gray-100 border-0 dark:bg-gray-300">
+        <p class="text-center font-sans   font-semibold text-gray-500">Send up to 3 GB</p>
+        <hr class="h-px mt-2 mx-5 mb-2 bg-gray-100 border-0 dark:bg-gray-300">
+        <button  class="h-10 w-72 text-white hover:cursor-pointer rounded-lg border-2 hover:border-gray-500 text-center bg-indigo-400  ml-4 mt-3 hover:text-gray-500  hover:bg-transparent focus:border-blue-900 ">Learn More</button>
+    
+    </div>
+     <!-- div3 -->
+     <div style="background-color:rgba(255,255,255,255);height: 22em;"; class=" absolute top-72 right-52  object-center   w-80  rounded-lg">
+      <p class="text-center font-sans font-semibold text-lg text-gray-500 pt-6 ">Master</p>
+      <h1 id="rate3" class="text-center font-sans text-6xl font-semibold text-gray-500 pt-4">$39.99</h1>
+      <hr class="h-px mt-4 mb-2 mx-5 bg-gray-100 border-0 dark:bg-gray-300">
+      <p class="text-center font-sans  font-semibold text-gray-500">2 TB Storage</p>
+      <hr class="h-px mt-3 mx-5 mb-2 bg-gray-100 border-0 dark:bg-gray-300">
+      <p class="text-center font-sans   font-semibold text-gray-500">10 Users Allowed</p>
+      <hr class="h-px mt-2 mx-5 mb-2 bg-gray-100 border-0 dark:bg-gray-300">
+      <p class="text-center font-sans   font-semibold text-gray-500">Send up to 20 GB</p>
+      <hr class="h-px mt-2 mx-5 mb-2 bg-gray-100 border-0 dark:bg-gray-300">
+      <button  class="h-10 w-72 text-white hover:cursor-pointer rounded-lg text-center bg-indigo-400  ml-4 mt-3 hover:text-gray-500  border-2 hover:border-gray-500 hover:bg-transparent  ">Learn More</button>
+  
+     </div>
+ 
+  </main><script src="script.js"></script>
+</body>
+</html>
